@@ -1,0 +1,13 @@
+Name of Quantlet: MSR_TDC_tStudent (MatLab R2007b)
+
+Published in: Measuring Statistical Risk
+
+Description: 'Plots the tail dependence coefficient of t-Student copula as the function of correlation and the number of degrees of freedom.'
+
+Keywords: DoF, copula, correlation, tail, plot, 3D
+
+See also: 'MSRbayer_log_returns, MSRportfolio_est, MSRstdlogret, MSRtail_dep_normal, MSRtail_dep_tStudent, MSRtcopulaparam, MSRvar_block_max, MSRvar_block_max_params, MSRvar_clayton_GARCHn'
+
+Author: Zografia Anastasiadou
+Author [Matlab]: Barbara Choros-Tomczyk, 
+

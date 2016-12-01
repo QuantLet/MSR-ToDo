@@ -1,0 +1,20 @@
+Name of Quantlet: MSRvar_clayton
+
+Published in: Measuring Statistical Risk
+
+Description: 'Computes Value-at-Risk with Clayton copula model and plots the time-varying parameters over time.'
+
+Keywords: VaR, clayton, copula, risk, financial
+
+Author: Barbara Choros
+
+See also: 'MSRvar_clayton_GARCHn, MSRvar_coptStudent, MSRvar_frank, MSRvar_gumbel'
+
+Usage: '[VaR,theta]=var_clayton(x,y,wx,wy,dofx,dofy);''
+
+Input: 'wx,wy- weights of assets in the portfolio
+dofx,dofy- degrees of freedom of t-distributions of
+x,y- vectors of returns'
+
+Output: 'theta- vector of Clayton copula parameters
+VaR- vector of Value at Risk'

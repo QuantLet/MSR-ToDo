@@ -1,0 +1,10 @@
+Name of Quantlet: MSRpdf_cop_Clayton
+
+Published in: Measuring Statistical Risk
+
+Description: 'Produces simple plot of the Clayton copula density with parameter p = 2.'
+
+Keywords: 3D, clayton, copula, density, plot
+
+Author: Zografia Anastasiadou
+

@@ -1,0 +1,12 @@
+Name of Quantlet: MSRtaildep_tcdf 
+
+Published in: Measuring Statistical Risk
+
+Description: 'Estimates tail dependence coefficient for two stocks when the joint distribution is modeled with bivariate t-Student distribution. '
+
+Author: Barbara Choros-Tomczyk
+
+Keywords: t-distribution, tail area (of a distribution), tail, dependence, distribution
+
+See also: MSRtailGPareto, MSRtailHill, MSRtaildepVsVarIndex
+

@@ -1,0 +1,13 @@
+Name of Quantlet: MSRportfolio
+
+Published in: Measuring Statistical Risk
+
+Description: 'Produces a PP and a QQ Plot of the Daily Return of the Portfolio.'
+
+Author: Zografia Anastasiadou
+
+Keywords: portfolio, pp-plot, qq-plot, returns, log-returns
+
+See also: MSRportfolio_est
+
+Datafiles: Portf9206_logRet.dat

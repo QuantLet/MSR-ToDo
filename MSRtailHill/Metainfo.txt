@@ -1,0 +1,11 @@
+Name of Quantlet: MSRtailHill
+
+Published in: Measuring Statistical Risk
+
+Description: 'MSRtailHill calculates value of Hill estimator for the negative log-returns of portfolio (Bayer, BMW, Siemens), time period: from 1992-01-01 to 2006-09-21.'
+
+Author: Zografia Anastasiadou
+
+Keywords: hill-estimator, tail area (of a distribution), tail, financial, time-series, distribution
+
+See also: 'MSRtailGPareto, MSRtail_dep_normal, MSRtail_dep_tStudent, MSRtaildep_tcdf, MSRtailport'

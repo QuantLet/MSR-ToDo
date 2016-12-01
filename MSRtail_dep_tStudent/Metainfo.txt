@@ -1,0 +1,11 @@
+Name of Quantlet: MSRtail_dep_tStudent
+
+Published in: Measuring Statistical Risk
+
+Description: 'Plots the function 2 * P{X_1 > F^(-1)_1(v) | X_2 = F^(-1)_2(v)} for a bivariate Student t distribution with correlation coeffcients -0.8, -0.6, . . . , 0.6, 0.8.'
+
+Author: Zografia Anastasiadou
+
+Keywords: bivariate, student, multivariate, distribution, plot
+
+See also: 'MSR_TDC_tStudent, MSRbayer_log_returns, MSRbayer_log_returns, MSRevt3, MSRportfolio_est, MSRstdlogret, MSRtailGPareto, MSRtailHill, MSRtail_dep_normal, MSRvar_block_max, MSRvar_block_max_params, MSRvar_clayton_GARCHn'

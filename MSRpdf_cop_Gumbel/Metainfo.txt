@@ -1,0 +1,11 @@
+Name of Quantlet: MSRpdf_cop_Gumbel 
+
+Published in: Measuring Statistical Risk
+
+Description: 'Produces a simple plot of the Gumbel copula density with parameter p = 2.'
+
+Author: Zografia Anastasiadou
+
+Keywords: copula, pdf, density, plot, graphical representation
+
+See also: MSRpdf_cop_Clayton, MSRpdf_cop_Frank, MSRpdf_cop_tStudent

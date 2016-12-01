@@ -1,0 +1,14 @@
+Name of Quantlet: MSRstdlogret
+
+Published in: Measuring Statistical Risk
+
+Description: 'Plots the standardized log-returns of Bayer, BMW, Siemens and Volkswagen. Uses data from 1999 to 2006.'
+
+Keywords: financial, returns, log-returns, dax, time-series, plot
+
+See also: 'MSR_TDC_tStudent, MSRbayer_log_returns, MSRbayer_log_returns, MSRevt3, MSRportfolio_est, MSRtail_dep_normal, MSRtail_dep_tStudent, MSRvar_block_max, MSRvar_block_max_params, MSRvar_clayton_GARCHn'
+
+Author[Matlab]: 'Barbara Choros-Tomczyk , Wolfgang K. Härdle'
+Author: Zografia Anastasiadou
+
+Datafiles: 'BMW9906_standLogRet.dat, Bay9906_standLogRet.dat, Sie9906_standLogRet.dat, Vow9906_standLogRet.dat'

@@ -1,0 +1,13 @@
+Name of Quantlet: MSRevt1 
+
+Published in: Measuring Statistical Risk
+
+Description: 'Computes and displays extreme value distributions: Frechet, Gumbel and Weibull.'
+
+Keywords: Frechet, Weibull, gumbel, extreme-value, distribution
+
+See also: MSRevt2, MSRevt3
+
+Author: Juergen Franke
+
+Submitted: Thu, May 29 2008 by Vladimir Georgescu
