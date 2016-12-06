@@ -17,10 +17,11 @@
 % Author:       Wolfgang Haerdle, Barbara Choros
 % ---------------------------------------------------------------------
 
-x=load('fx.dat');
-returns=diff(log(x)); 
-t=23:4*257:length(x);
-scatter(returns(:,1),returns(:,2),'b','.')
+x       =load('fx.dat');
+returns =diff(log(x)); 
+t       = 23:4*257:length(x);
+
+scatter(returns(:, 1), returns(:, 2), 'b', '.')
 title('FX Log-Returns')
 xlabel('DEM/USD');
 ylabel('GBP/USD');

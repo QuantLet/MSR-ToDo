@@ -1,2 +1,8 @@
 
 concorpanel/.Rhistory
+
+*.log
+
+MSRclose /.Rhistory
+
+*.log

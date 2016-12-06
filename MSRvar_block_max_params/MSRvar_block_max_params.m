@@ -26,15 +26,15 @@
 function MSRvar_block_max_params
 clc;
 close all;
-k=load('kappa_bMax_Portf.txt','-ascii');
-a=load('alpha_bMax_Portf.txt','-ascii');
-b=load('beta_bMax_Portf.txt','-ascii');
+k = load('kappa_bMax_Portf.txt', '-ascii');
+a = load('alpha_bMax_Portf.txt', '-ascii');
+b = load('beta_bMax_Portf.txt', '-ascii');
 %^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^PLOTS
 plot(k)
 grid on
 hold on
-plot(a,'Color','red')
-plot(b,'Color','m');
+plot(a,'Color', 'red')
+plot(b,'Color', 'm');
 hold off
 legend('Shape Parameter','Scale Parameter','Location Parameter')
 title('Parameters in Block Maxima Model')
