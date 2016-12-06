@@ -2,7 +2,7 @@ Name of Quantlet: MSRsiemens_log_returns
 
 Published in: Measuring Statistical Risk
 
-Description: 'Plots log-returns of the Siemens stock from 1992-01-01 to 2006-12-29.'
+Description: 'Plots daily log-returns of the Siemens stock from 1992-01-01 to 2006-12-29.'
 
 Keywords: returns, log-returns, financial, dax, empirical, plot
 

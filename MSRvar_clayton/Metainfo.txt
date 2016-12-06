@@ -10,7 +10,7 @@ Author: Barbara Choros
 
 See also: 'MSRvar_clayton_GARCHn, MSRvar_coptStudent, MSRvar_frank, MSRvar_gumbel'
 
-Usage: '[VaR,theta]=var_clayton(x,y,wx,wy,dofx,dofy);''
+Usage: '[VaR,theta]=var_clayton(x,y,wx,wy,dofx,dofy);'
 
 Input: 'wx,wy- weights of assets in the portfolio
 dofx,dofy- degrees of freedom of t-distributions of

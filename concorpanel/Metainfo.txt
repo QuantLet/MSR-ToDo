@@ -2,7 +2,7 @@ Name of QuantLet: concorpanel
 
 Published in: Measuring Statistical Risk
 
-Description: 'Produces a plot of 99% confidence intervals and confidence bands for dataset of measurements of spinal bone mineral density.'
+Description: 'Produces a plot of confidence intervals and confidence bands for dataset of measurements of spinal bone mineral density at 99% level.'
 
 Keywords: 'nonparametric, quantile, plot, graphical representation, data visualization'
 
