@@ -1,8 +1,5 @@
 
-concorpanel/.Rhistory
+*.Rhistory
 
 *.log
 
-MSRclose /.Rhistory
-
-*.log
