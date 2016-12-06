@@ -1,0 +1,12 @@
+Name of Quantlet: MSRlog_returns
+
+Published in: Measuring Statistical Risk
+
+Description: 'Plots log-returns of DEM/USD and GBP/USD from 01.12.1979 to 01.04.1994.'
+
+Keywords: log-returns, returns, financial, currency, exchange-rate, plot
+
+Author: Zografia Anastasiadou
+Author[Matlab]: Barbara Choros-Tomczyk
+
+Datafiles: fx.dat

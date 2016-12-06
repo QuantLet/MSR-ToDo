@@ -1,0 +1,12 @@
+Name of Quantlet: MSRpdf_cop_Frank
+
+Published in: Measuring Statistical Risk
+
+Description: 'Produces simple plot of the Frank copula density with parameter p = 2.'
+
+Keywords: copula, pdf, density, tail, dependence
+
+Author: Zografia Anastasiadou
+
+See also: MSRpdf_cop_Clayton, MSRpdf_cop_Gumbel, MSRpdf_cop_tStudent
+

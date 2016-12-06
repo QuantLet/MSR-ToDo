@@ -1,0 +1,13 @@
+Name of Quantlet: MSRtcopulaparam
+
+Published in: Measuring Statistical Risk
+
+Description: 'Computes number of degrees of freedom and correlation parameter rho for t-Student copula.'
+
+Keywords: copula, parametric, student, distribution, correlation, dependence
+
+Author: Barbara Choros
+
+See also: MSR_TDC_tStudent
+
+

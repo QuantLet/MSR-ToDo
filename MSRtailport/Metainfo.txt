@@ -1,0 +1,11 @@
+Name of Quantlet: MSRtailport
+
+Published in: Measuring Statistical Risk
+
+Description: 'Plots the right tail of the logarithmic empirical distribution of the portfolio (Bayer, BMW, Siemens) returns from 1992-01-01 to 2006-09-21.'
+
+Keywords: financial, portfolio, tail, risk, distribution, dax
+
+Author: Zografia Anastasiadou
+
+Datafiles: 'Bay9906_close_2kPoints.txt, Bmw9906_close_2kPoints.txt, Sie9906_close_2kPoints.txt'

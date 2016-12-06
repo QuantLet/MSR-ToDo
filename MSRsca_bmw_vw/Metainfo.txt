@@ -1,0 +1,12 @@
+Name of Quantlet: MSRsca_bmw_vw
+
+Published in: Measuring Statistical Risk
+
+Description: 'Provides a scatterplot of daily standardized log-returns of BMW versus Volkswagen using data from 1999 to 2006.'
+
+Keywords: returns, scatterplot, log-returns, financial, dax
+
+Author: Ye Hua
+Author[Matlab]: Barbara Choros-Tomczyk
+
+Datafiles: 'BMW9906_standLogRet.dat, Vow9906_standLogRet.dat'

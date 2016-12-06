@@ -1,0 +1,12 @@
+Name of Quantlet: MSRsca_log_returns
+
+Published in: Measuring Statistical Risk
+
+Description: 'MSRlog_returns plots the scatterplot of the log-returns of DEM/USD and GBP/USD from 01.12.1979 to 01.04.1994.'
+
+Keywords: returns, scatterplot, financial, log-returns, dax, index, currency
+
+Author: Zografia Anastasiadou
+Author[Matlab]: Barbara Choros-Tomczyk
+
+Datafiles: fx_dem_gbp_usd.dat

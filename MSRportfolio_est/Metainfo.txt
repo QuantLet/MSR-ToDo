@@ -1,0 +1,17 @@
+Name of Quantlet: MSRportfolio_est
+
+Published in: Measuring Statistical Risk
+
+Description: 'Calculates and plots the daily log-returns of the portfolio from 1992 to 2006 and the estimated density and log-density, respectively (nonparametric), kernel density estimator, gaussian kernel, bandwidth given by Silverman''s rule-of-thumb.'
+
+Keywords: Silverman, density, gaussian, kernel, returns
+
+See also: 'MSR_TDC_tStudent, MSRbayer_log_returns, MSRbayer_log_returns, MSRevt3, MSRstdlogret, MSRtail_dep_normal, MSRtail_dep_tStudent, MSRvar_block_max, MSRvar_block_max_params, MSRvar_clayton_GARCHn'
+
+
+Author: Zografia Anastasiadou
+Author[Matlab]: 'Wolfgang K. Härdle, Barbara Choros-Tomczyk'
+
+Submitted: Tue, March 16 2010 by Lasse Groth
+
+Datafiles: 'Port9906_2kPoints_GARCHn_Inn.txt'

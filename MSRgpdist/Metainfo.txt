@@ -1,0 +1,12 @@
+Name of Quantlet: MSRgpdist
+
+Published in: Measuring Statistical Risk
+
+Description: 'Generates generalized Pareto densities for different shape parameters and plots the resulting densities.'
+
+Keywords: pareto, heavy-tailed, plot, distribution, density
+
+Author: Zografia Anastasiadou
+Author[Matlab]: Barbara Choros-Tomczyk
+
+Submitted: Fri, May 30 2008 by Vladimir Georgescu

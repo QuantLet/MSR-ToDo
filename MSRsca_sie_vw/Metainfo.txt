@@ -1,0 +1,15 @@
+Name of Quantlet: MSRsca_sie_vw
+
+Published in: Measuring Statistical Risk
+
+Description: 'Provides a scatterplot of daily standardized log-returns of Siemens versus Volkswagen.'
+
+Author: Zografia Anastasiadou
+
+Keywords: returns, scatterplot, log-returns, financial, dax
+
+See also: MSRbayer_log_returns, MSRbmw_log_returns
+
+Submitted: Tue, April 05 2011 by Maria Osipenko
+
+Datafiles: Sie9906_standLogRet.dat, Vow9906_standLogRet.dat

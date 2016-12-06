@@ -1,0 +1,13 @@
+Name of Quantlet: MSRvar_frank
+
+Published in: Measuring Statistical Risk
+
+Description: 'Computes Value-at-Risk with Frank copula model for real financial data from Bayer and Siemens (1999 -2006).'
+
+Author: Barbara Choros
+
+Keywords: Frank, VaR, copula, financial, distribution
+
+See also: 'MSRvar_clayton, MSRvar_coptStudent, MSRvar_gumbel'
+
+Usage: '[VaR,theta]=var_frank(x,y,wx,wy,dofx,dofy);'

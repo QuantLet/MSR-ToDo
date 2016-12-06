@@ -1,0 +1,13 @@
+Name of Quantlet: MSR_Frechet_bounds
+
+Published in: Measuring Statistical Risk
+
+Description: 'Plots the three copula functions: maximum (M(x,y)), minimum (W(x,y)) and product (P(x,y))'
+
+Keywords: copula, Frechet, tail, plot, graphical representation
+
+Author: Zografia Anastasiadou, Ye Hua
+Author[Matlab]: Barbara Choros
+
+Submitted: Fri, April 08 2011 by Maria Osipenko
+

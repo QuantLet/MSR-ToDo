@@ -1,0 +1,12 @@
+Name of Quantlet: MSRevt2
+
+Published in: Measuring Statistical Risk
+
+Description:  'Generates CDFs for normal distribution of a pseudo random variable with extreme value ( Gumbel, Frechet and Weibull) and a randomnormal distributed variable.'
+
+Keywords: Frechet, Weibull, gumbel, extreme-value, distribution
+
+See also: MSRevt1, MSRevt3
+
+Author: Ye Hua, Zografia Anastasiadou
+Author[Matlab]: Juergen Franke

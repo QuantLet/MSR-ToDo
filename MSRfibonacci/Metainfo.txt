@@ -1,0 +1,9 @@
+Name of Quantlet: MSRfibonacci
+
+Published in: Measuring Statistical Risk
+
+Description: 'Generates numbers coming from a uniform distribution. The function uses Fibonacci method.'
+
+Keywords:  Fibonacci, random, random-number-generation, random-number-generation, uniform, distribution
+
+Author: Zografia Anastasiadou

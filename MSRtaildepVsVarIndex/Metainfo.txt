@@ -1,0 +1,11 @@
+Name of Quantlet: MSRtaildepVsVarIndex
+
+Published in: Measuring Statistical Risk
+
+Description: 'Plots tail-dependence coefficient lambda versus regular variation index alpha for correlation coefficients rho = 0.5, 0.3, 0.1.'
+
+Author: Barbara Choros
+
+Keywords: correlation, tail area (of a distribution), tail, risk, dependence, distribution
+
+See also: MSRtaildep_tcdf

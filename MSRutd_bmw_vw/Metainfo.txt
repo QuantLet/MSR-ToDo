@@ -1,0 +1,11 @@
+Name of Quantlet: MSRutd_bmw_vw
+
+Published in: Measuring Statistical Risk
+
+Description: 'Provides a scatterplot of daily standardized log-returns of BMW versus Volkswagen.'
+
+Keywords: financial, time-series, dax, empirical, log-returns, returns
+
+Author: Zografia Anastasiadou
+
+Datafiles: 'BMW9906_standLogRet.dat, Vow9906_standLogRet.dat'
