@@ -1,28 +1,3 @@
-% ---------------------------------------------------------------------
-% Book:         
-% ---------------------------------------------------------------------
-% Quantlet:     MSRvar_clayton
-% ---------------------------------------------------------------------
-% Description:  MSRvar_clayton computes Value-at-Risk with Clayton 
-%               copula model.
-% ---------------------------------------------------------------------
-% Usage:        [VaR,theta] = var_clayton(x, y, wx, wy, dofx, dofy);
-% ---------------------------------------------------------------------
-% Inputs:       x, y - vectors of returns
-%               wx, wy - weights of assets in the portfolio
-%               dofx, dofy - degrees of freedom of t-distributions of
-%               margins
-% ---------------------------------------------------------------------
-% Output:       VaR - vector of Value at Risk
-%               theta - vector of Clayton copula parameters
-% ---------------------------------------------------------------------
-% Example:     
-% ---------------------------------------------------------------------
-% Reference:    Franke, J., H�rdle, W. and Hafner, Ch.(2004)
-%               Statistics of Financial Markets: An Introduction
-% ---------------------------------------------------------------------
-% Author:       Barbara Choros, 26.09.2007
-% ---------------------------------------------------------------------
 
 function MSRvar_clayton
 clc;

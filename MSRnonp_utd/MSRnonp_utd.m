@@ -1,30 +1,4 @@
-% ---------------------------------------------------------------------
-% Book:         
-% ---------------------------------------------------------------------
-% Quantlet:     MSRnonp_utd
-% ---------------------------------------------------------------------
-% Description:  MSRnonp_utd a nonparametric estimation of upper tail 
-%               dependence coefficient by heuristic plateau-finding 
-%               algorithm.
-% ---------------------------------------------------------------------
-% Usage:        MSRnonp_utd
-%               lambda=msr_nonp_utd_coef(u,v,x,pos)
-% ---------------------------------------------------------------------
-% Inputs:       u,v: vectors
-%               x: upper tail dependence coefficient estimated for 
-%               various thresholds k
-% ---------------------------------------------------------------------
-% Output:       lambda: upper tail dependence coefficient
-% ---------------------------------------------------------------------
-% Example:     
-% ---------------------------------------------------------------------
 
-% Reference     Gabriel Frahm, Markus Junker, Rafael Schmidt
-%               "Estimating the tail-dependence coefficient: Properties 
-%               and pitfalls", 2005
-% ---------------------------------------------------------------------
-% Author:       Barbara Choros, 24.09.2007
-% ---------------------------------------------------------------------
 function MSRnonp_utd
 close all;
 x1 = load('BMW9906_standLogRet.txt');

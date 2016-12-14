@@ -1,28 +1,4 @@
-% ---------------------------------------------------------------------
-% Book:         
-% ---------------------------------------------------------------------
-% Quantlet:     MSRvar_coptStudent
-% ---------------------------------------------------------------------
-% Description:  MSRvar_coptStudent computes Value-at-Risk with 
-%               t-Student copula model.
-% ---------------------------------------------------------------------
-% Usage:        [VaR,theta] = var_coptStudent(x,y,wx,wy,dofx,dofy);
-% ---------------------------------------------------------------------
-% Inputs:       x,y - vectors of returns
-%               wx,wy - weights of assets in the portfolio
-%               dofx,dofy - degrees of freedom of t-distributions of 
-%               margins
-% ---------------------------------------------------------------------
-% Output:       VaR - vector of Value at Risk
-%               theta - vector of t-Student copula parameters
-% ---------------------------------------------------------------------
-% Example:     
-% ---------------------------------------------------------------------
-% Reference:    Franke, J., H�rdle, W. and Hafner, Ch.(2004)
-%               Statistics of Financial Markets: An Introduction
-% ---------------------------------------------------------------------
-% Author:       Barbara Choros, 26.09.2007
-% ---------------------------------------------------------------------
+
 
 function MSRvar_coptStudent
 clc;

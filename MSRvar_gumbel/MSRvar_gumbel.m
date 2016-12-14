@@ -1,28 +1,3 @@
-% ---------------------------------------------------------------------
-% Book:         
-% ---------------------------------------------------------------------
-% Quantlet:     MSRvar_gumbel
-% ---------------------------------------------------------------------
-% Description:  MSRvar_gumbel computes Value-at-Risk with 
-%               Gumbel copula model.
-% ---------------------------------------------------------------------
-% Usage:        [VaR,theta] = var_gumbel(x,y,wx,wy,dofx,dofy);
-% ---------------------------------------------------------------------
-% Inputs:       x,y - vectors of returns
-%               wx,wy - weights of assets in the portfolio
-%               dofx,dofy - degrees of freedom of t-distributions of 
-%               margins
-% ---------------------------------------------------------------------
-% Output:       VaR - vector of Value at Risk
-%               theta - vector of Gumbel copula parameters
-% ---------------------------------------------------------------------
-% Example:     
-% ---------------------------------------------------------------------
-% Reference:    Franke, J., H�rdle, W. and Hafner, Ch.(2004)
-%               Statistics of Financial Markets: An Introduction
-% ---------------------------------------------------------------------
-% Author:        Barbara Choros, 26.09.2007
-% ---------------------------------------------------------------------
 
 function MSRvar_gumbel
 clc;

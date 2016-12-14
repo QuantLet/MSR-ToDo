@@ -1,28 +1,3 @@
-% ---------------------------------------------------------------------
-% Book:         
-% ---------------------------------------------------------------------
-% Quantlet:     MSRvar_block_max
-% ---------------------------------------------------------------------
-% Description:  MSRvar_block_max computes Value-at-Risk with Block
-%               Maxima Model.
-% ---------------------------------------------------------------------
-% Usage:        [var,tau,alpha,beta,kappa]=msr_var_block_max(x)
-% ---------------------------------------------------------------------
-% Inputs:       x - vector of returns
-% ---------------------------------------------------------------------
-% Output:       var - Value at Risk
-%               tau = -1/kappa
-%               alpha - the scale parameter
-%               beta - the location parameter
-%               kappa - the shape parameter
-% ---------------------------------------------------------------------
-% Example:     
-% ---------------------------------------------------------------------
-% Reference:    Franke, J., Hï¿½rdle, W. and Hafner, Ch.(2004)
-%               Statistics of Financial Markets: An Introduction
-% ---------------------------------------------------------------------
-% Author:       Barbara Choros, 31.10.2007
-% ---------------------------------------------------------------------
 
 function MSRvar_block_max
 clc;

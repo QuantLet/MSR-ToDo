@@ -1,31 +1,9 @@
-# ---------------------------------------------------------------------
-# Book:         
-# ---------------------------------------------------------------------
-# Quantlet:     MSRtailGPareto
-# ---------------------------------------------------------------------
-# Description:  MSRtailGPareto estimates the parameters of Generalized 
-#               Pareto Distribution for the negative log-returns of 
-#               portfolio (Bayer, BMW, Siemens), time period: from 
-#               1992-01-01 to 2006-09-21, and produces QQ-plot and 
-#               PP-plot.
-# ---------------------------------------------------------------------
-# Usage:        MSRtailGPareto
-# ---------------------------------------------------------------------
-# Inputs:       None
-# ---------------------------------------------------------------------
-# Output:       QQ-plot and PP-plot with Generalized Pareto 
-#               Distribution.
-# ---------------------------------------------------------------------
-# Example:     
-# ---------------------------------------------------------------------
-# Author:       Zografia Anastasiadou, 20110623
-# ---------------------------------------------------------------------
 
 rm(list = ls(all = TRUE))
 #setwd("C:/...")
 
-install.packages("QRMlib")
-library(QRMlib)
+install.packages("QRM")
+library(QRM)
 
 a    = read.table('Bay9906_close_2kPoints.txt')
 b    = read.table('Bmw9906_close_2kPoints.txt')
