@@ -1,27 +1,9 @@
-# ---------------------------------------------------------------------
-# Book:         
-# ---------------------------------------------------------------------
-# Quantlet:     MSRgpdist
-# ---------------------------------------------------------------------
-# Description:  MSRgpdist generates generalized Pareto densities for 
-#               different shape parameters.     
-# ---------------------------------------------------------------------
-# Usage:        MSRgpdist
-# ---------------------------------------------------------------------
-# Inputs:       None
-# ---------------------------------------------------------------------
-# Output:       Generalized Pareto densities.
-# ---------------------------------------------------------------------
-# Example:     
-# ---------------------------------------------------------------------
-# Author:       Zografia Anastasiadou, 20110620
-# ---------------------------------------------------------------------
 
 rm(list=ls(all=TRUE))
 #setwd("C:/...")
 
-install.packages("QRMlib")
-library(QRMlib)
+install.packages("QRM")
+library(QRM)
  
 n     = 100
 sp    = 5 
@@ -40,3 +22,4 @@ plot(dist1, type = "l", col = "blue", lty = 4, lwd = 3, xlab = "", ylab = "",
     main = "Generalized Pareto Densities")
 lines(dist2, lwd = 3)
 lines(dist3, col = "red", lty = 2, lwd = 3)
+
