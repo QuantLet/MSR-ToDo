@@ -3,18 +3,9 @@ Quantlet Issues
 
 - Codes checked only for R Versions, problems with:
 
-    MSRgpdist               package problem "QRMlib"
-    MSRpdf_cop_tStudent     error in code
     MSRtailGPareto          package problem "QRMlib"
     MSRtailport             error in code
 
 - Missing required datafiles
 
-    MSRnonp_utd
-    MSRvar_block_max
-    MSRvar_clayton
-    MSRvar_clayton_GARCHn 
-    MSRvar_coptStudent
-    MSRvar_frank
-    MSRvar_gumbel
-    MSRvar_pot 
+ 
