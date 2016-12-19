@@ -1,40 +1,19 @@
-# ------------------------------------------------------------------------------
-# Project:     Confidence corridor for panel data
-# ------------------------------------------------------------------------------
-# Quantlet:    concorpanel
-# ------------------------------------------------------------------------------
-# Description: Produces a plot of 99% confidence intervals and confidence bands 
-#		   for dataset of measurements of spinal bone mineral density
-# ------------------------------------------------------------------------------
-# Usage:       -
-# ------------------------------------------------------------------------------
-# Inputs:      None
-# ------------------------------------------------------------------------------
-# Output:      Plot.
-# ------------------------------------------------------------------------------
-# Keywords:    quantile, nonparametric
-# ------------------------------------------------------------------------------
-# See also:    
-# ------------------------------------------------------------------------------
-# Example:     -
-# ------------------------------------------------------------------------------
-# Author:      Shuzhuan Zheng, Lijian Yang, Wolfgang H�rdle
-# ------------------------------------------------------------------------------
-
-
-
-
 graphics.off()
 rm(list = ls(all = TRUE))
 
 #modify working directory here:
-setwd("C:/...")
+#setwd("C:/...")
 
 #required packages
-libraries = c("lpridge", "KernSmooth", "stats")
+libraries = c("lpridge", "KernSmooth", "stats", "locpol")
 lapply(libraries, function(x) if (!(x %in% installed.packages())) {
   install.packages(x)
 })
+
+library("KernSmooth")
+library("lpridge")
+library("stats")
+library("locpol")
 
 bone.data = read.table("bone.txt", sep = ";", dec = ".", header = T)
 
@@ -76,8 +55,7 @@ alpha = 0.01;
 sigma = sqrt(var$est.var*(5/7)/(h*NT*xden$y)); 
 
 #quantile
-quant = sqrt(-2*log(h)) + (1/sqrt(-2*log(h)))
-        *(0.5*log(3) - log(2*pi) - log(-log(1 - alpha)/2)); 
+quant = sqrt(-2*log(h)) + (1/sqrt(-2*log(h)))*(0.5*log(3) - log(2*pi) - log(-log(1 - alpha)/2)); 
 
 # 99%CI (above) 
 lines(mean$x * (max(x) - min(x)) + min(x), mean$y + qnorm(0.995)*sigma, 

@@ -1,23 +1,3 @@
-% ---------------------------------------------------------------------
-% Book:         
-% ---------------------------------------------------------------------
-% Quantlet:     MSRtaildepVsVarIndex
-% ---------------------------------------------------------------------
-% Description:  MSRtaildepVsVarIndex plots tail-dependence coefficient
-%               lambda versus regular variation index alpha for 
-%               correlation coefficients rho = 0.5, 0.3, 0.1.
-% ---------------------------------------------------------------------
-% Usage:        MSRtaildepVsVarIndex
-% ---------------------------------------------------------------------
-% Inputs:       None.
-% ---------------------------------------------------------------------
-% Output:       Plot of tail-dependence coefficient
-%               lambda versus regular variation index alpha.
-% ---------------------------------------------------------------------
-% Example:     
-% ---------------------------------------------------------------------
-% Author:       Barbara Choros, 25.06.2008
-% ---------------------------------------------------------------------
 
 function MSRtaildepVsVarIndex
 

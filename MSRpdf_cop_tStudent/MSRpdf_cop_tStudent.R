@@ -1,3 +1,4 @@
+
 rm(list=ls(all=TRUE))
 #setwd("C:/...")
 
@@ -24,7 +25,6 @@ g    = (wyzn)^(-0.5)*gamma(v/2+1)*gamma(v/2)/gamma((v+1)/2)^2
 
 d2   = d^2
 c2   = (1:d^2)
-
 
 for (i in 1:d^2){
 	c2[i]=((1 + y[i,1]^2/v)*(1 + y[i,2]^2/v))^((v+1)/2)/

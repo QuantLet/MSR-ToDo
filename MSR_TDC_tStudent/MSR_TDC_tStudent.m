@@ -1,23 +1,3 @@
-% ---------------------------------------------------------------------
-% Book:         
-% ---------------------------------------------------------------------
-% Quantlet:     MSR_TDC_tStudent
-% ---------------------------------------------------------------------
-% Description:  MSR_TDC_tStudent plots the tail dependence coefficient
-%               of t-Student copula as the function of correlation and
-%               the number of degrees of freedom.
-% ---------------------------------------------------------------------
-% Usage:        MSR_TDC_tStudent
-% ---------------------------------------------------------------------
-% Inputs:       None
-% ---------------------------------------------------------------------
-% Output:       Plot of the tail dependence coefficient of t-Student 
-%               copula.
-% ---------------------------------------------------------------------
-% Example:     
-% ---------------------------------------------------------------------
-% Author:       Wolfgang Haerdle, Barbara Choros
-% ---------------------------------------------------------------------
 
 function MSR_TDC_tStudent
 d     = 3:103;

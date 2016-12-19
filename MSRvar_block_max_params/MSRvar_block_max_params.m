@@ -1,28 +1,3 @@
-% ---------------------------------------------------------------------
-% Book:         
-% ---------------------------------------------------------------------
-% Quantlet:     MSRvar_block_max_params
-% ---------------------------------------------------------------------
-% Description:  MSRvar_block_max_params provides parameters estimated 
-%               for calculating Value-at-Risk with Block Maxima Model.
-% ---------------------------------------------------------------------
-% Usage:        MSRvar_block_max_params
-% ---------------------------------------------------------------------
-% Inputs:       k - shape parameter
-%               a - scale parameter
-%               b - location parameter
-% ---------------------------------------------------------------------
-% Output:       Parameters estimated for calculating Value-at-Risk with 
-%               Block Maxima Model.
-% ---------------------------------------------------------------------
-% Example:     
-% ---------------------------------------------------------------------
-% Reference:    Franke, J., Haerdle, W. and Hafner, Ch.(2004)
-%               Statistics of Financial Markets: An Introduction
-% ---------------------------------------------------------------------
-% Author:       Barbara Choros, 31.10.2007
-% ---------------------------------------------------------------------
-
 function MSRvar_block_max_params
 clc;
 close all;

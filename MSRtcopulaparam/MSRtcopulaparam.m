@@ -1,28 +1,4 @@
-% ---------------------------------------------------------------------
-% Book:         
-% ---------------------------------------------------------------------
-% Quantlet:     MSRtcopulaparam
-% ---------------------------------------------------------------------
-% Description:  MSRtcopulaparam computes number of degrees of freedom 
-%               and correlation parameter rho for t-Student copula.
-% ---------------------------------------------------------------------
-% Usage:        MSRtcopulaparam
-% ---------------------------------------------------------------------
-% Inputs:       x, y: N x 1 vectors
-% ---------------------------------------------------------------------
-% Output:       r: correlation coefficient
-%               v: degrees of freedom.
-% ---------------------------------------------------------------------
-% Example:     
-% ---------------------------------------------------------------------
-% Reference     Claudio Romano, "Calibrating and simulating copula
-%               functions: an application to the italian stock market",
-%               November 2002
-% ---------------------------------------------------------------------
-% Author:       Barbara Choros, 24.09.2007
-% ---------------------------------------------------------------------
-
-function [r,v] = MSRtcopulaparam(x,y);
+function [r,v] = MSRtcopulaparam(x,y)
 T = length(x);
 z = [x';y'];
 N = size(z,1);
@@ -76,6 +52,6 @@ a = sum(log(1+y.^2./v));
 b = sum(a);
 for i = 1:T
     c(i) = log(1+(y(:,i)'*inv(R)*y(:,i))./v);
-end‚
+end
 c = sum(c);
 s = g-(v+n)/2*c+(v+1)/2*b;

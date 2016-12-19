@@ -1,26 +1,3 @@
-% ---------------------------------------------------------------------
-% Book:         
-% ---------------------------------------------------------------------
-% Quantlet:     MSRportfolio_est
-% ---------------------------------------------------------------------
-% Description:  MSRportfolio_est calculates and plots the daily 
-%               log-returns of the portfolio from 1992 to 2006 and the 
-%               estimated density and log-density, respectively 
-%               (nonparametric), kernel density estimator, gaussian 
-%               kernel, bandwidth given by Silverman's rule-of-thumb.
-% ---------------------------------------------------------------------
-% Usage:        MSRportfolio_est
-% ---------------------------------------------------------------------
-% Inputs:       None
-% ---------------------------------------------------------------------
-% Output:       Plots of the the daily log-returns of the portfolio and 
-%               the estimated density and log-density, respectively 
-%               (nonparametric).
-% ---------------------------------------------------------------------
-% Example:     
-% ---------------------------------------------------------------------
-% Author:       Wolfgang Haerdle, Barbara Choros
-% ---------------------------------------------------------------------
 close all
 clear 
 clc

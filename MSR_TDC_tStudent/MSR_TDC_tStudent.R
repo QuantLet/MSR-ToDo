@@ -1,28 +1,8 @@
-# ---------------------------------------------------------------------
-# Book:         
-# ---------------------------------------------------------------------
-# Quantlet:     MSR_TDC_tStudent
-# ---------------------------------------------------------------------
-# Description:  MSR_TDC_tStudent plots the tail dependence coefficient
-#               of t-Student copula as the function of correlation and
-#               the number of degrees of freedom.
-# ---------------------------------------------------------------------
-# Usage:        MSR_TDC_tStudent
-# ---------------------------------------------------------------------
-# Inputs:       None
-# ---------------------------------------------------------------------
-# Output:       Plot of the tail dependence coefficient of t-Student 
-#               copula.
-# ---------------------------------------------------------------------
-# Example:     
-# ---------------------------------------------------------------------
-# Author:       Zografia Anastasiadou, 20110601
-# ---------------------------------------------------------------------
 rm(list = ls(all = TRUE))
 # setwd('C:/...')
 
 install.packages("lattice")
-library(lattice)
+#library(lattice)
 
 d = 3:103
 r = seq(-1, 1, by = 0.02)

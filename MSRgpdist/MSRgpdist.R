@@ -1,8 +1,7 @@
-
 rm(list=ls(all=TRUE))
 #setwd("C:/...")
 
-install.packages("QRM")
+#install.packages("QRM")
 library(QRM)
  
 n     = 100
@@ -22,4 +21,3 @@ plot(dist1, type = "l", col = "blue", lty = 4, lwd = 3, xlab = "", ylab = "",
     main = "Generalized Pareto Densities")
 lines(dist2, lwd = 3)
 lines(dist3, col = "red", lty = 2, lwd = 3)
-
