@@ -1,0 +1,11 @@
+Name of Quantlet: MSRlambda_smoothing_utd
+
+Published in: Measuring Statistical Risk
+
+Description: 'Calculates upper tail dependence for various thresholds k for any combination of BMW, Siemens, VW and Bayer based on data from 1999 to 2006.'
+
+Author: Barbara Choros
+
+Keywords: smoothing, financial, time-series, tail, dependence
+
+Submitted: Thu, March 31 2011 by Maria Osipenko

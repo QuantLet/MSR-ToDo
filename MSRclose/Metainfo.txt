@@ -1,0 +1,12 @@
+Name of Quantlet: MSRclose
+
+Published in: Measuring Statistical Risk
+
+Description: 'Plots the closing prices of Bayer (black), BMW (red), Siemens (blue) and Volkswagen (green).'
+
+Author: Zografia Anastasiadou
+Author[Matlab]: Barbara Choros-Tomczyk
+
+Keywords: financial, time-series, index, returns, dax, plot
+
+Datafiles: 'BAYER_close_99_06.dat, BMW_close_99_06.dat, SIEMENS_close_99_06.dat, VOLKSWAGEN_close_99_06.dat'
