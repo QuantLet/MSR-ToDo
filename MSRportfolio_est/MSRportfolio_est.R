@@ -9,7 +9,7 @@ portRet  =  read.table("Port9906_2kPoints_GARCHn_Inn.txt")
 portRet  =  as.matrix(portRet)
 
 dim(portRet)
-r  =  length(portRet)
+r   =  length(portRet)
 
 mu  =  mean(portRet)
 si  =  sqrt(var(portRet))
@@ -30,7 +30,7 @@ plot(x1, type = "l", col = "red", xlab = "", ylab = "",
 lines(x2, col = "blue", lty = 2)
 
 lfh  =  cbind(x1$x, log(x1$y))
-lf  =  cbind(x2$x, log(x2$y))
+lf   =  cbind(x2$x, log(x2$y))
 
 plot(lfh, type = "l", col = "red", xlab = "", ylab = "", 
     main = "Estimated Log-Density (Nonparametric)", 

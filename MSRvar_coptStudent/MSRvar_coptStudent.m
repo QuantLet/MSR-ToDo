@@ -39,15 +39,17 @@ h     = 250;
 n     = 10000;
 alpha = 0.05;
 T     = length(rx);
+
 for i = 1:T-h
-    a = rx(i:i+h-1);b = ry(i:i+h-1);
-    [r,v] = MSRtcopulaparam(a,b);
-    U  = copularnd('t',r,v,n);
-    ux = tinv(U(:,1),dofx);
-    uy = tinv(U(:,2),dofy);
-    ux = ux.*stx+mx;
-    uy = uy.*sty+my;
-    L = wx.*x(i+h).*(exp(ux)-1)+wy.*y(i+h).*(exp(uy)-1);  
-    stats = sort(L);
+    a      = rx(i:i+h-1);
+    b      = ry(i:i+h-1);
+    [r,v]  = MSRtcopulaparam(a,b);
+    U      = copularnd('t',r,v,n);
+    ux     = tinv(U(:,1),dofx);
+    uy     = tinv(U(:,2),dofy);
+    ux     = ux.*stx+mx;
+    uy     = uy.*sty+my;
+    L      = wx.*x(i+h).*(exp(ux)-1)+wy.*y(i+h).*(exp(uy)-1);  
+    stats  = sort(L);
     VaR(i) = stats(alpha*n+1);
 end;

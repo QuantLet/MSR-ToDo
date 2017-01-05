@@ -10,8 +10,8 @@ x1     = load('Sie9906_standLogRet.dat');
 x2     = load('Vow9906_standLogRet.dat');
 lambda = taildep_tcdf(x1, x2)
 
-x1     = load('Bay9906_standLogRet.txt');
-x2     = load('Sie9906_standLogRet.txt');
+x1     = load('Bay9906_standLogRet.dat');
+x2     = load('Sie9906_standLogRet.dat');
 lambda = taildep_tcdf(x1, x2)
 
 

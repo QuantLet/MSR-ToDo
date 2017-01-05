@@ -3,15 +3,15 @@
 function MSRvar_pot_params
 clc;
 close all;
-bet=load('beta_pot_Portf.txt','-ascii');
-ksi=load('ksi_pot_Portf.txt','-ascii');
-u=load('u_pot_Portf.txt','-ascii');
+bet = load('beta_pot_Portf.txt', '-ascii');
+ksi = load('ksi_pot_Portf.txt', '-ascii');
+u   = load('u_pot_Portf.txt', '-ascii');
 %^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^PLOTS
 plot(bet)
 grid on
 hold on
-plot(ksi,'Color','red')
-plot(u,'Color','m');
+plot(ksi, 'Color', 'red')
+plot(u, 'Color', 'm');
 hold off
 legend('Scale Parameter','Shape Parameter','Threshold')
 title('Parameters in Peaks Over Threshold Model')

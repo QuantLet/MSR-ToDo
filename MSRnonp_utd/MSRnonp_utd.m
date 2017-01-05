@@ -8,15 +8,15 @@ l  = MSRnonp_utd_coef(x1, x2, x)
 title('TDC estimation for BMW & Volkswagen.')
 
 figure
-x1 = load('Sie9906_standLogRet.txt');
-x2 = load('Vow9906_standLogRet.txt');
+x1 = load('Sie9906_standLogRet.dat');
+x2 = load('Vow9906_standLogRet.dat');
 x  = load('lambdaS_SieVow.txt','-ascii');
 l  = MSRnonp_utd_coef(x1, x2, x)
 title('TDC estimation for Siemens & Volkswagen.')
 
 figure
-x1 = load('Bay9906_standLogRet.txt');
-x2 = load('Sie9906_standLogRet.txt');
+x1 = load('Bay9906_standLogRet.dat');
+x2 = load('Sie9906_standLogRet.dat');
 x  = load('lambdaS_BaySie.txt','-ascii');
 l  = MSRnonp_utd_coef(x1, x2, x)
 title('TDC estimation for Bayer & Siemens.')
