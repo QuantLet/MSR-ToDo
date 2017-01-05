@@ -1,25 +1,26 @@
 
 function MSRvar_clayton
 clc;
-wx = 1;wy = 1;
-x = load('Bay9906_close_2kPoints.txt', '-ascii');
-dofx = 6;
-y = load('Sie9906_close_2kPoints.txt', '-ascii');
-dofy = 5;
+wx    = 1;
+wy    = 1;
+x     = load('Bay9906_close_2kPoints.txt', '-ascii');
+dofx  = 6;
+y     = load('Sie9906_close_2kPoints.txt', '-ascii');
+dofy  = 5;
 [v, t] = var_clayton(x, y, wx, wy, dofx, dofy);
 save('VaR9906_cC_BaySie_2kPoints.txt', 'v', '-ascii');
 % --------------------------------------------------------------------- 
-x = load('Bmw9906_close_2kPoints.txt', '-ascii');
-dofx = 7;
-y = load('Vow9906_close_2kPoints.txt', '-ascii');
-dofy = 8;
+x     = load('Bmw9906_close_2kPoints.txt', '-ascii');
+dofx  = 7;
+y     = load('Vow9906_close_2kPoints.txt', '-ascii');
+dofy  = 8;
 [v, t] = var_clayton(x, y, wx, wy, dofx, dofy);
 save('VaR9906_cC_BmwVow_2kPoints.txt', 'v', '-ascii');
 % ---------------------------------------------------------------------
-x = load('Sie9906_close_2kPoints.txt', '-ascii');
-dofx = 5;
-y = load('Vow9906_close_2kPoints.txt', '-ascii');
-dofy = 8;
+x      = load('Sie9906_close_2kPoints.txt', '-ascii');
+dofx   = 5;
+y      = load('Vow9906_close_2kPoints.txt', '-ascii');
+dofy   = 8;
 [v, t] = var_clayton(x, y, wx, wy, dofx, dofy);
 save('VaR9906_cC_SieVow_2kPoints.txt', 'v', '-ascii');
 % --------------------------------------------------------------------- 
@@ -68,4 +69,4 @@ tC   = (find(loglike == maks) + min_t-1)/scale;
 end;
 
 function gc = density_clayton(u, v, p)
-gc = (u.^(-p) + v.^(-p)-1).^(-2-1/p).*(u.*v).^(-p-1).*(p+1);
+gc = (u.^(-p) + v.^(-p) - 1).^(-2 - 1/p).*(u.*v).^(-p - 1).*(p + 1);

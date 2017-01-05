@@ -5,9 +5,9 @@ rho = -0.8:0.2:0.8;
 n   = length(rho);
 
 for i = 1:n
-    v = 0.5:0.01:1;
-    sigma = 1-rho(i)^2;
-    sigma = sqrt(sigma);
+    v      = 0.5:0.01:1;
+    sigma  = 1-rho(i)^2;
+    sigma  = sqrt(sigma);
     lambda = 2*(1 - normcdf(norminv(v)*sqrt(1 - rho(i))/sqrt(1 + rho(i))));
 
 %lambda

@@ -1,7 +1,7 @@
 
-x  = load('Portf9206_logRet.dat');
-n  = length(x);
-xf = sort(x);
+x    = load('Portf9206_logRet.dat');
+n    = length(x);
+xf   = sort(x);
 
 t    = (1:n)/(n+1);
 dat  = [normcdf((xf-mean(xf))/sqrt(var(xf))),t'];
