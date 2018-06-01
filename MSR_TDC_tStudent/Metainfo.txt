@@ -1,4 +1,4 @@
-Name of Quantlet: MSR_TDC_tStudent (MatLab R2007b)
+Name of Quantlet: MSR_TDC_tStudent
 
 Published in: Measuring Statistical Risk
 
